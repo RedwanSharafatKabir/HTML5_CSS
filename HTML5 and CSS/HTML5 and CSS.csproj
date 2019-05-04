@@ -8,6 +8,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\scrolling-nav.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="entity.html" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -15,6 +16,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Hellow world.html" />
+    <Content Include="Images.html" />
     <Content Include="List.html" />
     <Content Include="Scripts\scrolling-nav.js" />
     <Content Include="index.html" />
