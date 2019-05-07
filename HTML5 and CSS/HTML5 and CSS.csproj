@@ -5,6 +5,8 @@
     <ProjectGuid>{3A087EC3-D583-4C83-8E7D-5B03DC6CAC01}</ProjectGuid>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Back and Sub directory.html" />
+    <Content Include="Bookmark.html" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\scrolling-nav.css" />
     <Content Include="Content\Site.css" />
@@ -17,11 +19,13 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Hellow world.html" />
     <Content Include="Images.html" />
+    <Content Include="Linking.html" />
     <Content Include="List.html" />
     <Content Include="Scripts\scrolling-nav.js" />
     <Content Include="index.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="sublink.html" />
     <Content Include="table.html" />
     <Content Include="Tagging and Attribute.html" />
     <Content Include="text formatting.html" />
