@@ -1,0 +1,26 @@
+﻿h1 {
+    color: green;
+    background-color: lightblue;
+    font-size: 300%;
+}
+#third_para {
+    color: goldenrod;
+    background-color: gray;
+    font-size: 150%;
+}
+#sec_para {
+    color: crimson;
+    background-color: aquamarine;
+    font-size: 150%;
+}
+
+.main-class {
+    color: brown;
+    background-color: silver;
+    font-size: 150%;
+}
+.head {
+    color: brown;
+    background-color: silver;
+    font-size: 300%;
+}
