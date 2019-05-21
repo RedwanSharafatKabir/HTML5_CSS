@@ -24,3 +24,16 @@
     background-color: silver;
     font-size: 300%;
 }
+
+a:link{
+    color: blue;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: brown;
+}
+a:active {
+    color: black;
+}
