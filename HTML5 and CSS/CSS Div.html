@@ -7,17 +7,18 @@
         #div1 {
             color: white;
             background-color: gray;
-            width: 300px;
-            height: 300px;
+            width: 250px;
+            height: 150px;
             margin-top: 50px;
             padding: 40px;
             box-shadow: 10px 10px 5px black;
+            float: left;
         }
         #div2 {
             /*color: blanchedalmond;*/
             /*background-color: cornflowerblue;*/
-            width: 400px;
-            height: 300px;
+            width: 300px;
+            height: 250px;
             margin: 50px 50px 50px 20px;
             padding: 0px 35px 80px 35px;
             box-shadow: 10px 10px 5px grey;
@@ -26,23 +27,32 @@
             background-repeat: no-repeat;
             background-position: center bottom;
             border: 5px violet groove;
+            float: left;
         }
         #div3 {
             color: blanchedalmond;
             background-color: peru;
-            width: 300px;
-            height: 300px;
-            /* margin: top right bottom left; */
+            width: 250px;
+            height: 150px;
+            /*margin: top right bottom left;*/ 
             margin: 50px 50px 50px 20px;
             padding: 40px 30px 40px 30px;
             box-shadow: 10px 10px 5px grey;
-            border: 10px dotted brown
+            border: 10px dotted brown;
+            float: left;
+        }
+        #main_div {
+            background-color: aquamarine;
+            width: 1340px;
+            height: 615px;
         }
     </style>
 </head>
 <body>
-    <div id="div1"><h1>Div Tag 1</h1></div>
-    <div id="div2"><h2 style="color: black"><br>&nbsp;&nbsp;&nbsp;Div Tag 2</h2></div>
-    <div id="div3"><h1>Div Tag 3</h1></div>
+    <div id="main_div">
+        <div id="div1"><h1>Div Tag 1</h1></div>
+        <div id="div2"><h2 style="color: black"><br>&nbsp;&nbsp;&nbsp;Div Tag 2</h2></div>
+        <div id="div3"><h1>Div Tag 3</h1></div>
+    </div>
 </body>
 </html>
