@@ -2,35 +2,52 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>tables</title>
+    <title>171-15-8737</title>
+
+    <style>
+        #first {
+            color: #ffffff;
+            font-size: 200%;
+        }
+        #second {
+            color: #ffffff;
+            font-size: 120%;
+        }
+        #third {
+            color: #ffffff;
+            font-size: 100%;
+        }
+    </style>
 </head>
 <body>
-    <table border="10" height="100" cellspacing="5" cellpadding="5">
+    <table background="black.jfif" border="10" height="100" cellspacing="1" cellpadding="5">
         <thead>
             <tr>
-                <th height="50" colspan="7">Student Information</th>
+                <th height="50" colspan="8" id="first">Student Information</th>
             </tr>
 
-            <tr>
-                <th >Institution</th>
+            <tr id="second">
+                <th>Institution</th>
                 <th rowspan="2">City</th>
                 <th width="100">ID</th>
                 <th width="250">Name</th>
                 <th width="80">Section</th>
                 <th width="150">Department</th>
                 <th width="150">Phone Number</th>
+                <th width="200">Email</th>
             </tr>
         </thead>
-        <tbody>
+
+        <tbody id="third">
             <tr>
                 <td rowspan="2">Daffodil International University</td>
                 <td rowspan="2">Dhanmondi</td>
                 <td>171-15-8737</td>
-                <td>&nbsp;Redwan Sharafat Kabir</td>
+                <td>&nbsp;Sharafat</td>
                 <td>&nbsp;D</td>
                 <td>&nbsp;CSE</td>
                 <td>
-                    <table border="1" width="150">
+                    <table border="1" width="150" cellspacing="0">
                         <tr>
                             <td>&nbsp;01911432556</td>
                         </tr>
@@ -39,7 +56,9 @@
                         </tr>
                     </table>
                 </td>
+                <td>&nbsp;redwan15-8737@diu.edu.bd</td>
             </tr>
+
             <tr>
                 <td>171-15-8735</td>
                 <td>&nbsp;Kabila</td>
@@ -49,6 +68,24 @@
                     <table width="150">
                         <tr>
                             <td>&nbsp;01521408011</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>&nbsp;kabila15-9085@diu.edu.bd</td>
+            </tr>
+
+            <tr align="center">
+                <td colspan="4">
+                    <table>
+                        <tr>
+                            <td>Public Information</td>
+                        </tr>
+                    </table>
+                </td>
+                <td colspan="4">
+                    <table>
+                        <tr>
+                            <td>Private Information</td>
                         </tr>
                     </table>
                 </td>
