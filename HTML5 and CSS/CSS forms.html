@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>CSS Forms</title>
+    <style>
+        form {
+            width: 500px;
+            padding: 20px;
+            border: 2px solid black;
+            margin: 30px auto;
+        }
+        input[type='text'], input[type='password'], select {
+            width: 350px;
+            height: 20px;
+            border: none;
+            border-bottom: 1px silver solid;
+            outline: none;
+            background: #e5dfdf;
+        }
+        textarea {
+            resize: none;
+            border: none;
+            border-bottom: 1px silver solid;
+            background: #e5dfdf;
+            width: 343px;
+            outline: none;
+        }
+        input[type='submit'] {
+            background: #678f14;
+            color: white;
+            padding: 5px;
+            border: 1px solid #d3bbbb;
+            width: 350px;
+            padding: 10px;
+        }
+        input[type='submit']:hover {
+            background: #d03f3f;
+            color: black;
+        }
+        input[type='text']:focus, input[type='password']:focus, select:focus {
+            background: lightskyblue;
+        }
+        input[type='text']:hover, input[type='password']:hover, select:hover, textarea:hover {
+            border-color: #678f14;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h2>&nbsp;Complete registration</h2><hr>
+        <table>
+            <tr>
+                <td><lebel for="user">Username:</lebel><br><br></td>
+                <td><input type="text" id="user" name="user"><br><br></td>
+            </tr>
+            <tr>
+                <td><lebel for="pass">Password:</lebel><br><br><br></td>
+                <td><input type="password" id="pass" name="password"><br><br><br></td>
+            </tr>
+            <tr>
+                <td><lebel>Gender:</lebel><br><br></td>
+                <td>
+                    Male:<input type="radio" name="gender" value="male"> Female:<input type="radio" name="gender" value="female">
+                    <br><br>
+                </td>
+            </tr>
+            <tr>
+                <td><lebel>Skills:</lebel><br><br></td>
+                <td>
+                    Java:<input type="checkbox" value="java"> | Android:<input type="checkbox" value="android">
+                    | Algorithm:<input type="checkbox" value="algorithm"><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td><lebel for="country">Select your country:&nbsp;&nbsp;</lebel><br><br></td>
+                <td height="50px" width="20px">
+                    <select id="country" name="country">
+                        <option value="">Select your country</option>
+                        <option value="bd">Bangladesh</option>
+                        <option value="in">India</option>
+                        <option value="pk">Pakistan</option>
+                    </select><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td><lebel for="comment">About yourself:</lebel></td>
+                <td><textarea rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td height="50px">
+                    <input type="submit" value="Click here to submit" name="submit form">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

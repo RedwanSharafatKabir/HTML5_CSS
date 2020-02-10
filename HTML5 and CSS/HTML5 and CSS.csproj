@@ -12,8 +12,12 @@
     <Content Include="Content\scrolling-nav.css" />
     <Content Include="Content\Site.css" />
     <Content Include="CSS Anchor_state.html" />
+    <Content Include="CSS and Web Page Layout.html" />
     <Content Include="CSS Div.html" />
+    <Content Include="CSS forms.html" />
     <Content Include="CSS inline.html" />
+    <Content Include="CSS Lists.html" />
+    <Content Include="CSS navigation.html" />
     <Content Include="CSS selector, internal and external.html" />
     <Content Include="CSS table.html" />
     <Content Include="CSS text and font.html" />
@@ -30,6 +34,8 @@
     <Content Include="Images.html" />
     <Content Include="Linking.html" />
     <Content Include="List.html" />
+    <Content Include="Responsive and Transparent login page.css" />
+    <Content Include="Responsive and Transparent login page.html" />
     <Content Include="Scripts\scrolling-nav.js" />
     <Content Include="index.html" />
     <Content Include="Scripts\bootstrap.js" />

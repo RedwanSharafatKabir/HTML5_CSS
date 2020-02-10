@@ -3,17 +3,49 @@
 <head>
     <meta charset="utf-8" />
     <style>
-        
+        table {
+            width: 500px;
+            height: 100px;
+        }
+        table, th, td {
+            /*border: 5px solid silver;*/
+            border-bottom: 5px solid silver;
+            border-collapse: collapse;
+            padding: 15px;
+        }
+        td, th {
+            text-align: center;
+            vertical-align: middle;
+        }
+        thead {
+            background: yellowgreen;
+        }
+        tbody tr:hover {
+            background: #0094ff;
+        }
     </style>
 </head>
 <body>
     <table>
         <thead>
-
+            <tr>
+                <th>ID.</th>
+                <th>Student Name:</th>
+                <th>Section:</th>
+            </tr>
         </thead>
 
         <tbody>
-
+            <tr>
+                <td>171-15-8737</td>
+                <td>Redwan Sharafat Kabir</td>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>171-15-8905</td>
+                <td>Himel Junaet</td>
+                <td>D</td>
+            </tr>
         </tbody>
     </table>
 </body>

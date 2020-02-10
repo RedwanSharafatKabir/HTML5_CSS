@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>css lists</title>
+    <style>
+        #ul1 {
+            list-style-type: square;    
+            list-style-image: url(nodelogo.png);
+            list-style-position: outside;
+            background: silver;
+        }
+        #ul1 li {
+            font-size: 25px;
+            background: yellowgreen;
+        }
+
+        #ul2 {
+            list-style: square inside url(nodelogo.png);
+        }
+        #ul2 li {
+            font-size: 25px;
+        }
+
+        .ul3 {
+            list-style: none;
+        }
+            .ul3 li {
+                font-size: 25px;
+                float: left;
+            }
+    </style>
+</head>
+<body>
+    <ul id="ul1">
+        <li>Bangladesh</li>
+        <li>India</li>
+        <li>Pakistan</li>
+    </ul>
+    <ul id="ul2">
+        <li>Bangladesh</li>
+        <li>India</li>
+        <li>Pakistan</li>
+    </ul>
+    <ul class="ul3">
+        <li>Bangladesh&nbsp;&nbsp;</li>
+        <li>India&nbsp;&nbsp;</li>
+        <li>Pakistan&nbsp;&nbsp;</li>
+    </ul>
+</body>
+</html>
