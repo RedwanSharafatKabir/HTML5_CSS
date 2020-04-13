@@ -1,0 +1,104 @@
+<head>
+	<title>First JavaScript Lab</title>
+</head>
+
+<body>
+	<h1 id="headerClass">Main Header</h1>
+
+	<table>
+		<tr>
+			<td>First Number: </td>
+			<td><input type="Number" id="fno"/></td>
+		</tr>
+		<tr>
+			<td>Ending Number: </td>
+			<td><input type="Number" id="lno"/></td>
+		</tr>
+		<tr>
+			<td>Result: </td>
+			<td><input type="Number" id="rno"/></td>
+		</tr>
+		<tr>
+			<td><input type="Submit" id="plus" value="Addition"/></td>
+			<td><input type="Submit" id="minus" value="Subtract"/></td>
+			<td><input type="Submit" id="mult" value="Multiply"/></td>
+			<td><input type="Submit" id="divis" value="Division"/></td>
+			<td><input type="Submit" id="rmnd" value="Remainder"/></td>
+		</tr>
+	</table>
+
+	<!-- <div>
+		<h2>First Name: <textarea></textarea></h2>
+		<h2>Last Name: <textarea></textarea></h2>
+		<h2>Full Name: <textarea></textarea></h2>
+		<button>Submit</button><br><br><br>
+	</div> -->
+
+	<script type="text/javascript">
+
+		// document.getElementById('headerClass').innerHTML = 'Bangladesh Cricket Board';
+
+		// var A-Z, a-z, _, $;
+
+		// var name = prompt(), birth = 1997, present = 2020;
+		// document.write("<br>Name: " + name + " " + "<br>Age: " + (parseInt(present)-parseInt(birth)));
+
+		// var postfix = 5,
+		//     prefix = 5;
+		//     assignment = 6;
+		//     assignment += 1;
+		// document.write(postfix++ + '<br>' + ++prefix + '<br>'+ assignment);
+
+		// var j = 1;
+		// for(var i=0;i<10;i++){
+		// 	document.write(j++ + "<br>");
+		// }
+
+		var submitElement = document.getElementById('plus');
+		submitElement.onclick = function(){
+			var firstno = document.getElementById('fno').value;
+			var endno = document.getElementById('lno').value;
+
+			var results = parseInt(firstno) + parseInt(endno);
+			document.getElementById('rno').value = results;
+		};
+
+		var submitElement = document.getElementById('minus');
+		submitElement.onclick = function(){
+			var firstno = document.getElementById('fno').value;
+			var endno = document.getElementById('lno').value;
+
+			var results = parseInt(firstno) - parseInt(endno);
+			document.getElementById('rno').value = results;
+		};
+
+		var submitElement = document.getElementById('mult');
+		submitElement.onclick = function(){
+			var firstno = document.getElementById('fno').value;
+			var endno = document.getElementById('lno').value;
+
+			var results = parseInt(firstno) * parseInt(endno);
+			document.getElementById('rno').value = results;
+		};
+
+		var submitElement = document.getElementById('divis');
+		submitElement.onclick = function(){
+			var firstno = document.getElementById('fno').value;
+			var endno = document.getElementById('lno').value;
+
+			var results = parseInt(firstno) / parseInt(endno);
+			document.getElementById('rno').value = results;
+		};
+
+		var submitElement = document.getElementById('rmnd');
+		submitElement.onclick = function(){
+			var firstno = document.getElementById('fno').value;
+			var endno = document.getElementById('lno').value;
+
+			var results = parseInt(firstno) % parseInt(endno);
+			document.getElementById('rno').value = results;
+		};
+
+	</script>
+
+</body>

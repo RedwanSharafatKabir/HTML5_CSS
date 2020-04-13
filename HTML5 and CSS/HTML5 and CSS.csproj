@@ -21,6 +21,7 @@
     <Content Include="CSS selector, internal and external.html" />
     <Content Include="CSS table.html" />
     <Content Include="CSS text and font.html" />
+    <Content Include="CSS table form.html" />
     <Content Include="entity.html" />
     <Content Include="favicon.ico" />
     <Content Include="First Style.css" />
