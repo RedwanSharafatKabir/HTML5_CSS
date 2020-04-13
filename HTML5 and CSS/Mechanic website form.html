@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Form</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #031321;
+            font-family: consolas;
+        }
+
+        form {
+            width: 500px;
+            padding: 20px;
+            border: 2px solid silver;
+            margin: 30px auto;
+        }
+
+        input[type='text'], select {
+            width: 350px;
+            height: 20px;
+            border: none;
+            border-bottom: 1px silver solid;
+            outline: none;
+            background: #e5dfdf;
+        }
+
+        textarea {
+            resize: none;
+            border: none;
+            border-bottom: 1px silver solid;
+            background: #e5dfdf;
+            width: 343px;
+            outline: none;
+        }
+
+        input[type='submit'] {
+            background: #384448;
+            color: white;
+            padding: 5px;
+            border: 1px solid #d3bbbb;
+            width: 350px;
+            padding: 10px;
+        }
+
+        input[type='submit']:hover {
+            background: #031321;
+            color: white;
+        }
+
+        input[type='text']:focus, select:focus {
+            background: lightskyblue;
+        }
+
+        input[type='text']:hover, select:hover, textarea:hover {
+            border-color: #678f14;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h2 style="color:white;">&nbsp;Order Mechanic</h2><hr>
+        <table>
+            <tr>
+                <td style="color:white;"><lebel for="user">Car Model:</lebel><br><br></td>
+                <td><input type="text" id="user" name="user"><br><br></td>
+            </tr>
+            <tr>
+                <td style="color:white;"><lebel for="pass">Enter Location:</lebel><br><br><br></td>
+                <td><input type="text" id="pass" name="password"><br><br><br></td>
+            </tr>
+            <tr>
+                <td style="color:white;"><lebel>Problem:</lebel><br><br></td>
+                <td style="color:white;">
+                    Body damage:<input type="radio" name="gender" value="male">&emsp;&emsp;Internal damage:<input type="radio" name="gender" value="female">
+                    <br><br>
+                </td>
+            </tr>
+            
+            <tr>
+                <td style="color:white;"><lebel for="country">Vehicle type:&nbsp;&nbsp;</lebel><br><br></td>
+                <td height="50px" width="20px">
+                    <select id="country" name="country">
+                        <option value="">Select </option>
+                        <option value="bd">Truck</option>
+                        <option value="in">Motor car</option>
+                        <option value="pk">Motor cycle</option>
+                    </select><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td style="color:white;"><lebel for="comment">Description:</lebel></td>
+                <td><textarea rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td height="50px">
+                    <input type="submit" value="Click here to submit" name="submit form">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
